@@ -1,14 +1,11 @@
-const React = require('react-native')
-
-
-const {
+import React, {Component} from 'react';
+import {
   Animated,
-  Component,
   View,
   Text,
   StyleSheet,
   TouchableOpacity
-} = React
+} from 'react-native';
 
 var ProgressBar = require('./ProgressBar');
 
