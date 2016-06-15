@@ -1,11 +1,11 @@
 'use strict';
 
-var React = require('react-native');
-var {
+import React, {Component} from 'react';
+import  {
   Platform,
   ActivityIndicatorIOS,
   ProgressBarAndroid,
-} = React;
+} from 'react-native';
 
 var ProgressBar = React.createClass({
   render() {
